@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "NEXTART_Bold";
+  src: url(static/NEXTART_Bold.otf);
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: "NEXTART_semi_Bold";
+  src: url(static/NEXTART_SemiBold.otf);
+  font-weight: 600;
+}
+
+
+@font-face {
+  font-family: "NEXTART_regular";
+  src: url(static/NEXTART_Regular.otf);
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: "ArodoraPro_Light";
+  src: url(static/ArodoraPro-Light.otf);
+  font-weight: 300;
+}
+
+
+:root {
+  --text_color: #E4E4E4;
+  --card_background: #2A2A2A;
+  --body_background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+  --main-color: #e38528;
+}
+
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text_color);
+}
+
